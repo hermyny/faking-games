@@ -1,0 +1,46 @@
+.card-img-top {
+   height: 20em;
+   width : auto;
+   object-fit:cover;
+
+}
+
+.card-index {
+        /*padding: 10px;*/
+        height:20em;
+        transform: scale(1);
+        transition: all 1s ease;
+        filter: grayscale(40%);
+        cursor: pointer;
+}
+
+.card-index:hover{
+    transform: scale(1.05);
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+
+    filter: grayscale(0%);
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: whiteSmoke;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: orange;
+  background-color: transparent;
